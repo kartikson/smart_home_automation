@@ -1,0 +1,132 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.header h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.devices-section h2, .energy-section h2 {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.cards-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.card p {
+  color: #7f8c8d;
+  margin: 15px 0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+  width: 100%;
+}
+
+.card button:hover {
+  opacity: 0.85;
+}
+
+.btn-on {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-off {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.energy-card {
+  border-radius: 10px;
+  padding: 25px;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+  border: 1px solid #d4ebff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.energy-item {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.energy-item span {
+  display: block;
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.energy-item strong {
+  font-size: 28px;
+  color: #2980b9;
+}
